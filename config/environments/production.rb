@@ -3,6 +3,8 @@ Rails.application.configure do
 
   # Code is not reloaded between requests.
   config.cache_classes = true
+#Added by Nate P. via Devise  Update host: to actual production host
+#config.action_mailer.default_url_options = { host: '', port: 3000 }
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
