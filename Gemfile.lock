@@ -38,6 +38,8 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    acts_as_commentable (4.0.2)
+    acts_as_votable (0.10.0)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     arel (8.0.0)
@@ -52,6 +54,10 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    carrierwave (1.1.0)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
     childprocess (0.7.1)
       ffi (~> 1.0, >= 1.0.11)
     coffee-rails (4.2.2)
@@ -188,8 +194,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts_as_commentable (~> 4.0, >= 4.0.2)
+  acts_as_votable (~> 0.10.0)
   byebug
   capybara (~> 2.13)
+  carrierwave (~> 1.1)
   coffee-rails (~> 4.2)
   devise
   jbuilder (~> 2.5)

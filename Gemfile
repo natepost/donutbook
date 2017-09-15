@@ -22,7 +22,10 @@ gem 'jbuilder', '~> 2.5'
 
 # gem 'capistrano-rails', group: :development
 
-
+gem 'devise'
+gem 'carrierwave', '~> 1.1'
+gem 'acts_as_votable', '~> 0.10.0'
+gem 'acts_as_commentable', '~> 4.0', '>= 4.0.2'
 
 
 group :development, :test do
