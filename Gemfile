@@ -24,8 +24,6 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 gem 'carrierwave', '~> 1.1'
-gem 'acts_as_votable', '~> 0.10.0'
-gem 'acts_as_commentable', '~> 4.0', '>= 4.0.2'
 
 
 group :development, :test do
@@ -47,7 +45,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-
-#added by Nate P.
-gem 'devise'
