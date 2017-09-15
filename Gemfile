@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 gem 'carrierwave', '~> 1.1'
+gem 'acts_as_votable', '~> 0.10.0'
+gem 'acts_as_commentable', '~> 4.0', '>= 4.0.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
